@@ -42,7 +42,7 @@ end
 
 if not shared.VapeDeveloper then
 	local _, subbed = pcall(function()
-		return game:HttpGet('https://github.com/qyroke2/VapeV4ForRoblox')
+		return game:HttpGet('https://github.com/wwoo9474-spec/WoosVape')
 	end)
 	local commit = subbed:find('currentOid')
 	commit = commit and subbed:sub(commit + 13, commit + 52) or nil
